@@ -1,8 +1,23 @@
+*{
+  list-style: none;
+  text-decoration: none;
+}
 body {
   background: rgb(34, 137, 122);
   color: white;
   max-width: 100%;
   overflow-x: hidden;
+}
+.navigation ul {
+  display: flex;
+  justify-content: space-evenly;
+  gap: 1rem;
+}
+.navigation ul li a {
+  color: rgb(34, 137, 122);
+  background: white;
+  padding: 1rem;
+  width: 100%;
 }
 .content{
   display: grid;

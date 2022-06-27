@@ -2,3 +2,23 @@ body {
   background: rgb(34, 137, 122);
   color: white;
 }
+.content{
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+  align-content: center;
+  justify-content: center;
+}
+main{
+  min-width: 80vw;
+}
+.sidebar{
+  grid-column: 2/3;
+  min-width: 20vw;
+  padding: 1rem;
+  background: #fff;
+  color: black;
+}
+.sidebar:hover{
+  position: relative;
+  transform: translateY(40rem);
+}

@@ -17,8 +17,9 @@ main{
   padding: 1rem;
   background: #fff;
   color: black;
+  transition: all 1s;
 }
 .sidebar:hover{
   position: relative;
-  transform: translateY(40rem);
+  transform: translateX(-40rem);
 }

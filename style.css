@@ -9,6 +9,9 @@ body {
   overflow-x: hidden;
 }
 .navigation ul {
+  margin: 1rem 0;
+  padding: 1rem;
+  background: white;
   display: flex;
   justify-content: space-evenly;
   gap: 1rem;
@@ -18,6 +21,7 @@ body {
   background: white;
   padding: 1rem;
   width: 100%;
+  cursor: pointer;
 }
 .content{
   display: grid;

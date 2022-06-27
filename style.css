@@ -16,14 +16,14 @@ main{
 .sidebar{
   grid-column: 2/3;
   background: #fff;
-  padding: 0 10rem;
+  padding: 0 0.5rem;
   color: black;
   width: 100%;
   transition: all 1s;
   cursor:cell;
 }
 .sidebar:hover{
-  padding: 0rem 20rem;
-  transform: translateX(-5rem);
+  padding: 0rem 5rem;
+  transform: translateX(-.5rem);
   box-shadow: 0 14px 28px rgba(255, 255, 255, 0.25), 0 10px 10px rgb(255, 255, 255,0.25);
 }
